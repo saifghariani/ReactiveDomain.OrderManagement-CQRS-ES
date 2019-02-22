@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement", "OrderManagement\OrderManagement.csproj", "{EA7D1621-1178-4439-8B85-6923E2182D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderManagement", "OrderManagement\OrderManagement.csproj", "{EA7D1621-1178-4439-8B85-6923E2182D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementUI", "OrderManagementUI\OrderManagementUI.csproj", "{2B6B3AE9-19E6-4BCC-AEB1-713F742A5AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Domain", "OrderManagement.Domain\OrderManagement.Domain.csproj", "{6C9E66E5-7544-4F3F-9556-0529B5E11FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.UI.React", "OrderManagement.UI.React\OrderManagement.UI.React.csproj", "{0089BBDD-881C-4656-9440-4C172A953E81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{EA7D1621-1178-4439-8B85-6923E2182D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7D1621-1178-4439-8B85-6923E2182D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7D1621-1178-4439-8B85-6923E2182D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6B3AE9-19E6-4BCC-AEB1-713F742A5AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6B3AE9-19E6-4BCC-AEB1-713F742A5AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6B3AE9-19E6-4BCC-AEB1-713F742A5AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6B3AE9-19E6-4BCC-AEB1-713F742A5AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9E66E5-7544-4F3F-9556-0529B5E11FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9E66E5-7544-4F3F-9556-0529B5E11FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9E66E5-7544-4F3F-9556-0529B5E11FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9E66E5-7544-4F3F-9556-0529B5E11FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0089BBDD-881C-4656-9440-4C172A953E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0089BBDD-881C-4656-9440-4C172A953E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0089BBDD-881C-4656-9440-4C172A953E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0089BBDD-881C-4656-9440-4C172A953E81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
